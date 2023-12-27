@@ -12,7 +12,11 @@ In section 2 we will learn foundational concepts for programming and working wit
 
 In section 3 we will merge the first two sections to create custom interactable controllers. 
 
+Much of the course content is derived from the following books and websites.
 
+<a href="https://www.penguinrandomhouse.com/books/669487/code-as-creative-medium-by-golan-levin-and-tega-brain/9780262542043/" target="_blank">Code as a Creative Medium</a><br>
+<a href="https://mitpressbookstore.mit.edu/book/9781568989372" target="_blank">Form+Code in Design, Art, and Architecture</a><br>
+<a href="http://viznut.fi/texts-en/permacomputing.html" target="_blank">Permacomputing</a>
 
 
 
