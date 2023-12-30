@@ -1,17 +1,26 @@
+# Arduino Week One
 We will be using an Arduino <a href="https://docs.arduino.cc/hardware/uno-rev3" target="_blank">Uno</a> for class activities as well as a selection of electrical components. 
+
+![arduino]
 
 An Arduino is a microcontroller that can be considered a self-contained system with a processor, memory, and peripherals and can be used as an embedded system.  Most microcontrollers today are embedded in other machinery, such as automobiles, telephones, appliances, and peripherals for computer systems. [1] <a href="https://docs.arduino.cc/tutorials/uno-rev3/intro-to-board" target="_blank">Here</a> is a reference article about the Arduino Uno board. 
 
 What are some objects you interact with every day that might have a microcontroller as part of their design?
 
-In this first week, we will only look at a few components from your kits.
+In this first week, we will only look at a few components from your kits listed below as well as circled in red in the following image. 
 
+* Arduino Uno
+* USB Cable 
 * Breadboard
 * Jumper Wire
 * LED (Light Emitting Diode)
 * RGB LED (Red Green Blue Light Emitting Diode)
 * Resistor
 * Buttons
+
+![components]
+
+## Lecture on Arduino
 
 ### Together:
 
@@ -53,7 +62,7 @@ Taking what we have learned see if you can turn the LED on when you press and ho
 * LED
 * Button
 
-### Lab Assignment / Homework
+## Lab Assignment / Homework
 
 Now that we can know the state of a button it's time to do something slightly more interesting than just turning on one LED.  For this assignment, I would like you to use the RGB LED and three buttons.  Have one of the buttons be able to turn on the red channel, another to turn on the green channel, and the final button to turn on the blue channel.  
 
@@ -70,4 +79,7 @@ If you get stuck review the three in-class exercises.
 
 #### References:
 [1] https://en.wikipedia.org/wiki/Microcontroller
+
+[arduino]: https://github.com/freaug/ART3400/blob/main/lab_arduino/week_one/media/Arduino_Pinout.png "Arduino"
+[components]: https://github.com/freaug/ART3400/blob/main/lab_arduino/week_one/media/Week%201%20Components.jpg "Week One Components"
 
