@@ -20,8 +20,6 @@ In this first week, we will only look at a few components from your kits listed 
 
 ![components]
 
-## Lecture on Arduino
-
 ### Together:
 
 [In Class Activity 1](https://docs.arduino.cc/tutorials/uno-rev3/Blink) - Blinking LED, click on the link to see the circuit diagram and code for this example.
