@@ -46,13 +46,24 @@ Now that we've written a sketch, let's add some color to it!
 ### Greyscale
 So far we just have greyscale colors represented in our sketch, the background of our sketch is a shade of grey, shapes are filled in with white, and have a black outline. 
 
-*  In processing color values range from 0 - 255 With 0 being black and 255 being white. Below are some commands that we can use to set the color of certain parts of our sketch.
+*  In processing color values range from 0 - 255. In the case of greyscale color 0 is black and 255 is white. Below are some commands that we can use to set the color of certain parts of our sketch.
   * background
     * sets the sketch background color 
   * fill
     * sets the interior color of a shape 
   * stroke
-    * sets the color of the border of a shape    
+    * sets the color of the outline of a shape
+  * strokeWeight
+    * does not set a color but is used to set how thick the outline of a shape is
+
+### Fullcolor RGB
+Moving on to RGB color (With R being red, G being green, and B being blue).  Each of these can accept a value from 0 to 255.  Computers are like giant lights so mixing red, green, and blue will be an additive process. 
+
+* colorMode
+ * This can be used to change the color mode that Processing uses to render graphics as well as the number range used to control those values
+* alpha
+ * adding a fourth parameter to to background, fill, or stroke can be used to set that color's alpha level.  
+
 
 
 
