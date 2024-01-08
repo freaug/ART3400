@@ -80,10 +80,35 @@ Up to this point, we've been creating static images.
 ## Setup and Draw
 
 Setup
-* we can use this command or function as a way of initializing
+* we can use this command or function as a way of initializing parameters of the sketch such as its size
 
 Draw
-* This command or function runs over and over.
+* This command or function runs over and over forever (or until you quit your program)
+
+
+Below is a simple example of how you would format your code block
+```
+//adding two forward slashes before a line of code creates a comment.
+//these lines are not executed by the computer but instead are a way to document what your code is doing
+//this is the setup function 
+void setup(){
+  //we can define the size of our window and set the background color here
+  size(640, 480);
+  background(0);
+}
+
+//this is the draw function 
+void draw(){
+  //here we can draw an ellipse in the center with fill
+  //remember this block of code will run over and over until we exit our program
+  fill(255, 0, 100);
+  ellipse(320, 240, 50, 50);
+}
+```
+
+** Create A Simple Sketch (~10)
+
+Taking what we have learned create a simple sketch but this time using the setup and draw functions.  
 
 
 
