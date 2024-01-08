@@ -1,5 +1,3 @@
-
-
 ## Drawing in a window
 * Cartesian Plane
   *  X, Y coordinate system
@@ -8,11 +6,12 @@
  
 * Shapes
   *  command/name
-  *  some parameters
       * point
       * circle
       * square
       * line
+  *  some parameters
+      * x, y, diameter, width, height, x2, y2
 
 * [Processing Reference](https://processing.org/reference)
   *  Useful for figuring out what commands/parameters do (syntax)
@@ -25,17 +24,15 @@
 
 * You should use at least 3 different 2D Primitives (shapes) in your sketch
 * You should have at least 10 shapes in your sketch
-* Optional: include a shape from the [2D Primitives](https://processing.org/reference/#shape) portion of the Processing Reference page
+* Optional: include a shape from the [2D Primitives](https://processing.org/reference/#shape) portion of the Processing Reference page that we have not covered so far
 
 If you're having trouble visualizing what you would like to create I find it can be helpful to first draw out an idea and then use it as a reference for figuring out the location and size of shapes. 
 
 ### Saving your code
 
-Saving your projects and submitting them through iCollege will be the main way grades are calculated in this class. To ensure you receive full credit make sure to save projects correctly:
+Please save this project with the following scheme: ***lastname_firstname_processing_in_class_1***
 
-lastname_firstname_in_class_assignment_1
-
-for example, I would name my file: farr_eddie_in_class_assignment_1
+for example, I would name my file: farr_eddie_processing_in_class_1
 
 Why the naming scheme?  There are many of you and one of me.  This naming scheme will make it easy for me to grade and return assignments in a timely fashion.
 
@@ -62,7 +59,33 @@ Moving on to RGB color (With R being red, G being green, and B being blue).  Eac
 * colorMode
  * This can be used to change the color mode that Processing uses to render graphics as well as the number range used to control those values
 * alpha
- * adding a fourth parameter to to background, fill, or stroke can be used to set that color's alpha level.  
+ * adding a fourth parameter to background, fill, or stroke can be used to set that color's alpha level.
+
+## Adding color - In Class Assignment 
+
+### Add color to your previous sketch. (~15)
+
+* Be thoughtful with your colors
+* Remember that code is executed in order so you may have to redefine your stoke and fill colors.
+
+### Save your code 
+
+Please save this project with the following scheme: ***lastname_firstname_processing_in_class_2***
+
+
+## Flow
+
+Up to this point, we've been creating static images. 
+
+## Setup and Draw
+
+Setup
+* we can use this command or function as a way of initializing
+
+Draw
+* This command or function runs over and over.
+
+
 
 
 
