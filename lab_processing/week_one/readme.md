@@ -126,15 +126,39 @@ noFill();
 strokeWeight(4);
 arc(150, 150, 50, 50, radians(0), radians(180));
 ```
+This code will generate the below image.
+
 
 
 ** Homework
 
 Skim [this](https://www.programmingdesignsystems.com/color/a-short-history-of-color-theory/index.html#a-short-history-of-color-theory-xZzRFOZ) article on color theory as a refresher. 
 
-For this homework assignment, you will need to create three complete compositions. 
+Skim [this](https://www.programmingdesignsystems.com/color/perceptually-uniform-color-spaces/index.html#perceptually-uniform-color-spaces-e7zMSWy) article on Perceptually uniform color spaces.
 
-composition 1 should be 
+[This](https://www.w3schools.com/colors/colors_picker.asp) is a helpful tool for getting RGB and HSL values. 
+
+[This](https://coolors.co/07020d-5db7de-f1e9db-a39b8b-716a5c) is a helpful tool for generating palettes. 
+* (Forward thinking but how do you think this website works?)
+
+For this homework assignment, you will need to create three complete compositions.   
+
+Each Compositions should include at minumum three different types of 2D primitives from the [Processing reference](https://processing.org/reference/#shape) page.  
+
+1 composition should be monochromatic 
+1 composition should be in a non traditional aspect ratio, so no 4:3, 1:1, etc
+1 composition should use HSL as the color mode
+
+Comment the code for each composition so that anyone viewing it could easily understand what they are looking at.  
+
+Take a screenshot of each completed composition and include it with your homewrk submission 
+
+
+
+
+I find it helpful to do a rough sketch of what I'm trying to accomplish. Having a visual reference is helpful when transition to a digital realm.  
+
+
 
 
 
