@@ -106,13 +106,13 @@ void draw(){
 }
 ```
 
-** Updating Our Sketch (~10)
+## Updating Our Sketch (~10)
 
 Taking what we have learned about setup and draw let's rewrite (refactor) our code by putting the appropriate lines of code into the corresponding setup or draw blocks.
 
 Moving forward make sure to write your code with the setup and draw code blocks. 
 
-** Arc
+## Arc
 
 Arcs are a little different from the other 2D primitives.  In addition to an X position, Y position, width, and height, Arcs also need a start position and a stop position.  Processing sets the start and stop position using radians but I find it easier to think in degrees over radians.  Fortunately, Processing offers a built-in function to convert degrees to radians that we can use called radians()
 
@@ -126,11 +126,12 @@ noFill();
 strokeWeight(4);
 arc(150, 150, 50, 50, radians(0), radians(180));
 ```
-This code will generate the below image.
+This code will generate the below arc:
+
+![alt text](https://github.com/freaug/ART3400/blob/main/lab_processing/week_one/media/arc.png "Arc")
 
 
-
-** Homework
+## Homework
 
 Skim [this](https://www.programmingdesignsystems.com/color/a-short-history-of-color-theory/index.html#a-short-history-of-color-theory-xZzRFOZ) article on color theory as a refresher. 
 
@@ -139,7 +140,7 @@ Skim [this](https://www.programmingdesignsystems.com/color/perceptually-uniform-
 [This](https://www.w3schools.com/colors/colors_picker.asp) is a helpful tool for getting RGB and HSL values. 
 
 [This](https://coolors.co/07020d-5db7de-f1e9db-a39b8b-716a5c) is a helpful tool for generating palettes. 
-* (Forward thinking but how do you think this website works?)
+* (Forward thinking: how do you think this website works to generate a random palette by pressing the space bar?)
 
 For this homework assignment, you will need to create three complete compositions.   
 
@@ -153,30 +154,8 @@ Comment the code for each composition so that anyone viewing it could easily und
 
 Take a screenshot of each completed composition and include it with your homewrk submission 
 
+create a folder and name it ***lastname_firstname_homework_1***
 
+Include your commented code and screenshot of completed work in this folder, zip the folder, and submit it through iCollege by the start of our next class. 
 
-
-I find it helpful to do a rough sketch of what I'm trying to accomplish. Having a visual reference is helpful when transition to a digital realm.  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-  
+I find it helpful to do a rough sketch of what I'm trying to accomplish. Having a visual reference is helpful when translating to a digital medium.  
