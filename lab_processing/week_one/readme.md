@@ -106,9 +106,39 @@ void draw(){
 }
 ```
 
-** Create A Simple Sketch (~10)
+** Updating Our Sketch (~10)
 
-Taking what we have learned create a simple sketch but this time using the setup and draw functions.  
+Taking what we have learned about setup and draw let's rewrite (refactor) our code by putting the appropriate lines of code into the corresponding setup or draw blocks.
+
+Moving forward make sure to write your code with the setup and draw code blocks. 
+
+** Arc
+
+Arcs are a little different from the other 2D primitives.  In addition to an X position, Y position, width, and height, Arcs also need a start position and a stop position.  Processing sets the start and stop position using radians but I find it easier to think in degrees over radians.  Fortunately, Processing offers a built-in function to convert degrees to radians that we can use called radians()
+
+```
+// this would return PI or 3.14 radians
+radians(180)
+
+//for now this is how we can use the radians function to create an arc segment
+size(300, 300);
+noFill();
+strokeWeight(4);
+arc(150, 150, 50, 50, radians(0), radians(180));
+```
+
+
+** Homework
+
+Skim [this](https://www.programmingdesignsystems.com/color/a-short-history-of-color-theory/index.html#a-short-history-of-color-theory-xZzRFOZ) article on color theory as a refresher. 
+
+For this homework assignment, you will need to create three complete compositions. 
+
+composition 1 should be 
+
+
+
+
 
 
 
