@@ -146,16 +146,17 @@ For this homework assignment, you will need to create three complete composition
 
 Each Compositions should include at minumum three different types of 2D primitives from the [Processing reference](https://processing.org/reference/#shape) page.  
 
-1 composition should be monochromatic 
-1 composition should be in a non traditional aspect ratio, so no 4:3, 1:1, etc
-1 composition should use HSL as the color mode
+* 1 composition should be monochromatic 
+* 1 composition size should be in a non-traditional aspect ratio, so no 4:3, 1:1, etc
+ * For Example a window that is 800 pixels wide by 100 pixels tall  
+* 1 composition should use HSB as the color mode
 
-Comment the code for each composition so that anyone viewing it could easily understand what they are looking at.  
+Comment the code for each composition so that anyone viewing it can easily understand what they are looking at.  
 
-Take a screenshot of each completed composition and include it with your homewrk submission 
+Take a screenshot of each completed composition and include it with your homework submission 
 
 create a folder and name it ***lastname_firstname_homework_1***
 
 Include your commented code and screenshot of completed work in this folder, zip the folder, and submit it through iCollege by the start of our next class. 
 
-I find it helpful to do a rough sketch of what I'm trying to accomplish. Having a visual reference is helpful when translating to a digital medium.  
+It is helpful to do a rough sketch of what I'm trying to accomplish. Having a visual reference is helpful when translating to a digital medium.  
