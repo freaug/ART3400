@@ -1,16 +1,35 @@
 ## Variables
 
-Up to this point we have been hardcoding values into our commands/functions this is fine but there will come a time when you might decide to change a variable, say the red color value of a circle.  If you have many circles this could be a tedious prospect.  Luckily we have a way to create a variable that we can use to store some type of data. 
+Variables allow us to store a data type, like the position of a circle, and allow us to do something to that data.  Let's take a look at variables with the goal of moving a circle across the screen. 
 
-variables can be declared like this
+## Circle on the left In Class (~10 min)
+
+Create a sketch of any size with a circle drawn on the left side of the screen.
+
+Make sure you are using the setup and draw function blocks in your code.
+
+Save this sketch as lastname_firstname_inclass_1
+
+Let's add some variables.
+
+### Declaring and initializing a variable
+
+variables can be declared and initialized like in the below block of code. 
 
 ```
-int redValue = 255; // we declare a variable of data type int names redValue and set it equal to 255
+int circleX = 10; // we declare a variable of data type int names redValue and set it equal to 255
 
-fill(redValue, 0, 0);
+void setup(){
+ size(300, 300);
+ background(0);
+}
+
+void draw(){
+ circle(circleX, 100, 50);
+}
 ```
 
-Lets break down what's going on in the above code example
+Let's break down what's going on in the above code example
 
 ### variable naming conventions
 
@@ -50,21 +69,27 @@ Here are some common data types you will run into
 
 The last bit of defining a variable is the assign (=) this lets the computer know that we want to assign a value to our variable.  It's important to remember that the value we assign must be the same datatype that we have declared. 
 
+
 ## System Variables
 
 Processing also has system/built-in variables we can use.  Below are a few examples:
 
 * mouseX
- * The current horizontal mouse location 
+  * The current horizontal mouse location 
 * mouseY
- * The current vertical mouse location 
+  * The current vertical mouse location 
 * width
- * The width of our canvas 
+  * The width of our canvas 
 * height
- * The height of our canvas
- 
+  * The height of our canvas
 
-## Simple painting program In Class ~15 mins
+## Simple painting program In Class (~15 mins)
+
+Taking what we've just learned create a simple drawing program.
+
+You will need to use mouseX, mouseY for this to work.
+
+
 
 
 
