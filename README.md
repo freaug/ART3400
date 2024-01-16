@@ -13,6 +13,16 @@ Much of the course content is derived from the following books/websites. You are
 
 [Form+Code in Design, Art, and Architecture](https://mitpressbookstore.mit.edu/book/9781568989372)
 
+## Course Outline
+
+[Week 1 - Processing](https://github.com/freaug/ART3400/tree/main/lab_processing/week_one)
+[Week 2 - Processing](https://github.com/freaug/ART3400/tree/main/lab_processing/week_two)
+Week 3 - Processing
+Week 4 - Arduino
+Week 4 - Arduino
+Week 4 - Arduino
+
+
 
 
 
