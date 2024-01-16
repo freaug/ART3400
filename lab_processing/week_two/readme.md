@@ -49,3 +49,22 @@ Here are some common data types you will run into
 ### assign (=)
 
 The last bit of defining a variable is the assign (=) this lets the computer know that we want to assign a value to our variable.  It's important to remember that the value we assign must be the same datatype that we have declared. 
+
+## System Variables
+
+Processing also has system/built-in variables we can use.  Below are a few examples:
+
+* mouseX
+ * The current horizontal mouse location 
+* mouseY
+ * The current vertical mouse location 
+* width
+ * The width of our canvas 
+* height
+ * The height of our canvas
+ 
+
+## Simple painting program In Class ~15 mins
+
+
+
