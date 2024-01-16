@@ -17,7 +17,7 @@ Let's add some variables.
 variables can be declared and initialized like in the below block of code. 
 
 ```
-int circleX = 10; // we declare a variable of data type int names redValue and set it equal to 255
+int circleX = 10;
 
 void setup(){
  size(300, 300);
@@ -25,11 +25,23 @@ void setup(){
 }
 
 void draw(){
- circle(circleX, 100, 50);
+ circle(circleX, 150, 50);
 }
 ```
 
 Let's break down what's going on in the above code example
+
+We create a variable of data type int named circleX and initialize it to 10
+
+We add the setup function block and create a canvas that is 300, 300 pixels and set the background to black
+
+We add the draw function block and then we draw a circle at an X position of circleX (or 10) a Y position of 150, and a diameter of 50 pixels.
+
+Let's break down the section on variables.
+
+### scope
+
+Our variable circleX has been declared in the global scope.  That means that it can be used anywhere in the sketch. In addition to the global scope, there is the local scope but we don't need to worry about that for now. 
 
 ### variable naming conventions
 
@@ -68,6 +80,9 @@ Here are some common data types you will run into
 ### assign (=)
 
 The last bit of defining a variable is the assign (=) this lets the computer know that we want to assign a value to our variable.  It's important to remember that the value we assign must be the same datatype that we have declared. 
+
+## Adding motion In Class (~10 mins)
+
 
 
 ## System Variables
