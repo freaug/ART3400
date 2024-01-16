@@ -5,19 +5,47 @@ Up to this point we have been hardcoding values into our commands/functions this
 variables can be declared like this
 
 ```
-int redValue = 255;
-int greenValue = 100;
-int blueValue = 100;
+int redValue = 255; // we declare a variable of data type int names redValue and set it equal to 255
 
-fill(redValue, greenValue, blueValue);
+fill(redValue, 0, 0);
 ```
+
+Lets break down what's going on in the above code example
 
 ### variable naming conventions
 
-Variables have a few rul
+Variable names must start with a letter  or _ (underscore) character and can only include letters, the _ (underscore) symbol, and a number anywhere besides the first character.  Spaces are not allowed.
+
+Here are examples of valid variable names
+
+* redValue
+* red_Value
+* _redValue
+* redValue2
+
+Here are examples of nonvalid variable names
+
+* 2redValue
+* red Value
+* red@Value
 
 ### data types
 
-Variables
+in addition to a name, you need to declare a data type for the variable. Without getting into a computer science rabbit hole functions expect a certain data type to be passed in as a parameter.  So far in class, we have been using int or integer values for the position and color of our objects. 
 
-##
+Here are some common data types you will run into 
+
+* int
+  *  a positive or negative 32-bit whole number
+  *  100
+  *  -1000
+  *  3200000
+* float
+  *  a positive or negative floating point number
+  *  32.1
+  *  501.20
+  *  0.001  
+
+### assign (=)
+
+The last bit of defining a variable is the assign (=) this lets the computer know that we want to assign a value to our variable.  It's important to remember that the value we assign must be the same datatype that we have declared. 
