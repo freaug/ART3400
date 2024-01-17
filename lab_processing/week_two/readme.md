@@ -135,9 +135,9 @@ The if statement will execute a block of code if a test condition evaluates to t
 The test condition, 10 > 5 is known as a boolean expression.  This is a line of code that can only be evaluated as one of two options. True or false. Boolean expressions are evaluated with a relational operator. Relational operators are used to compare two numbers. 
 
 relational operators are:
-* > (greater than)
+* '>' (greater than)
 * < (less than)
-* >= (greater than or equal to)
+* '>'= (greater than or equal to)
 * <= (less than or equal to)
 * == (equal to)
 * != (not equal to)
