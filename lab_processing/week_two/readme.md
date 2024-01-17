@@ -83,7 +83,7 @@ The last bit of defining a variable is the assign (=) this lets the computer kno
 
 ## Adding motion In Class (~10 mins)
 
-Lets take the above sketch and add some motion to our circle.
+Let's take the above sketch and add some motion to our circle.
 
 To do this we can use the assignment operator = by writing the following line of code in the draw function block
 
@@ -107,8 +107,40 @@ Processing also has system/built-in variables we can use.  Below are a few examp
   * The width of our canvas 
 * height
   * The height of our canvas
+ 
+### Simple Drawing In Class (~10 mins)
+
+Let's make a simple drawing program! To do this you can use mouseX and mouseY in the circle function.
+
+let's also use the mousePressed function as a way to clear our screen.  To do this we will need to call the mousePressed function in our code.
+
+```
+void mousePressed(){
+ background(0);
+}
+```
+
+mousePressed should be called outside the setup and draw function block
 
 ## Conditional Logic
+
+Conditional Logic is the most important concept we will learn in this course.  It will be applied to everything we do from this point forward. Conditional Logic is what allows a program to become more than just a static or random occurrence of shapes and colors.
+
+### if
+
+The if statement will execute a block of code if a test condition evaluates to true. Say we have a test condition of 10 > 5 we know that this is true so we would then execute some block of code. 
+
+### boolean expression
+
+The test condition, 10 > 5 is known as a boolean expression.  This is a line of code that can only be evaluated as one of two options. True or false. Boolean expressions are evaluated with a relational operator. Relational operators are used to compare two numbers. 
+
+relational operators are:
+* > (greater than)
+* < (less than)
+* >= (greater than or equal to)
+* <= (less than or equal to)
+* == (equal to)
+* != (not equal to)
 
 
 ## Loops
@@ -140,8 +172,6 @@ breaking down what is happening above:
 6. Exit the loop.
 
 In this example, the for loop is executed 40 times. In the init statement, the value i is created and set to zero. i is less than 40, so the test evaluates as true. At the end of each loop, i is incremented by one. On the 41st execution, the test is evaluated as false, because i is then equal to 40, so i < 40 is no longer true. Thus, the loop exits.
-
-
 
 ## Functions 
 
