@@ -239,11 +239,6 @@ Logical operators are used to combine conditional logic statements.  These opera
 if(mouseX > 200 && mouseX < 300){
  fill(255);
 }
-
-if(mouseX <= 200 || mouseX >= 300){
- fill(00
-}
-
 ```
 
 ## Simple Rollover in class (~10)
@@ -253,48 +248,32 @@ Let's make a simple rollover feature for a square.  A rollover detects when the 
 * change the fill color of the square when the mouse is over the square
 * you will need to check the mouse position for the left side, right side, top, and bottom of the square
 
-## Loops
+#### Save
 
-In programming, there are several types of loops you will encounter.  For this class, we will only be focusing on the for loop however you may come across a while loop if you are reading through code that is not yours.  The while loop is also covered in detail in the Learning Processing video we have been using as a reference for the class. 
+save this assignment as lastname_firstname_inclass6
 
-The for loop controls a sequence of repetitions. The structure of the for loop is comprised of three parts, the initial state, the text condition, and the update. The syntax is shown below.
+## Wrap around Ball In Class (~10 min)
 
-```
+Taking what we have learned let's write a simple sketch that will show a circle wrapping around the screen.
 
-for(initial state; test condition; update){
- // do something
-}
+* start with a circle on the left side of the screen
+* once the circle reaches the right side of the screen have it restart on the left side of the screen
+* you will need to use conditional logic to achieve this
 
-//or written so that your code will compile.
+#### Save
 
-for(int i = 0; i < 40; i = i + 1){
- print(i);
-}
-```
+save this as lastname_firstname_inclass6
 
-breaking down what is happening above:
+## Bouncing ball In Class (~10 min)
 
-1. The init statement is run.
-2. The test is evaluated to be true or false.
-3. If the test is true, jump to step 4. If the test is false, jump to step 6.
-4. Run the statements within the block.
-5. Run the update statement and jump to step 2.
-6. Exit the loop.
+We have learned enough to bounce a ball from left to right! Lets take some time to write this out
 
-In this example, the for loop is executed 40 times. In the init statement, the value i is created and set to zero. i is less than 40, so the test evaluates as true. At the end of each loop, i is incremented by one. On the 41st execution, the test is evaluated as false, because i is then equal to 40, so i < 40 is no longer true. Thus, the loop exits.
+* you will need two conditional logic statements to achieve this
+* you will need two variables to bounce the ball
+* if you get stuck use the print function to help you debug your code
 
-## Functions 
+### working through bouncing ball together (~10 mins)
 
-So far we have been using predefined functions from Processing but wouldn't it be fun to make our own functions? The answer is a resounding yes. 
-
+Were you able to bounce the ball?
 
 ## Homework
-
-## 4 Square Assignment
-
-Using mouseX and mouseY create a sketch 
-
-
-
-
-
