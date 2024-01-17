@@ -135,12 +135,45 @@ The if statement will execute a block of code if a test condition evaluates to t
 The test condition, 10 > 5 is known as a boolean expression.  This is a line of code that can only be evaluated as one of two options. True or false. Boolean expressions are evaluated with a relational operator. Relational operators are used to compare two numbers. 
 
 relational operators are:
-* '>' (greater than)
-* < (less than)
-* '>'= (greater than or equal to)
-* <= (less than or equal to)
-* == (equal to)
-* != (not equal to)
+```
+> //greater than
+< //less than
+>= //greater than or equal to
+<= //less than or equal to
+== //equal to
+!= //not equal to
+```
+### else
+
+Else allows us to expand the if code block to include other code blocks that can be executed by our program.  This block of code would be executed if the test condition result is false
+
+```
+if(10 > 5){
+//some code
+}else{
+//some other code
+}
+```
+
+### else if
+
+Else if is the final piece of conditional logic.  This allows us to expand our program logic to many possible code blocks to execute.
+
+```
+if(10 > 5){
+//some code
+}else if( 10 < 20){
+// some other code
+}else if (5 > 0){
+// some other code
+}else{
+//some other code
+}
+```
+
+## 4 Square Assignment (~20 mins)
+
+
 
 
 ## Loops
@@ -176,5 +209,4 @@ In this example, the for loop is executed 40 times. In the init statement, the v
 ## Functions 
 
 
-## Homework Pick one 
 
