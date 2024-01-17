@@ -10,7 +10,9 @@ Create a sketch of any size with a circle drawn on the left side of the screen.
 
 Make sure you are using the setup and draw function blocks in your code.
 
-Save this sketch as lastname_firstname_inclass_1
+#### Save
+
+Save this sketch as lastname_firstname_inclass1
 
 Let's add some variables.
 
@@ -93,7 +95,9 @@ To do this we can use the assignment operator = by writing the following line of
 circleX = circleX + 1;
 ```
 
-We are now using the variable as an incrementation operator and should see our circle moving across the screen from left to right! 
+We are now using the variable as an incrementation operator and should see our circle moving across the screen from left to right!
+
+#### Save
 
 Save this assignment as lastname_firstname_inclass2
 
@@ -125,7 +129,7 @@ Processing also has system/built-in variables we can use.  Below are a few examp
 * height
   * The height of our canvas
  
-### Simple Drawing In Class (~10 mins)
+### Simple Drawing Program In Class (~10 mins)
 
 Let's make a simple drawing program! To do this you can use mouseX and mouseY in the circle function.
 
@@ -138,6 +142,10 @@ void mousePressed(){
 ```
 
 mousePressed should be called outside the setup and draw function block
+
+#### Save
+
+save this as lastname_firstname_inclass3
 
 ## Conditional Logic
 
@@ -172,6 +180,18 @@ if(10 > 5){
 }
 ```
 
+## Circle Square In Class (~10 mins)
+
+Let's make a simple sketch that uses boolean logic to determine what we are drawing on screen. 
+
+* Create a sketch of any size
+* using mouseX draw a circle in the middle of the screen if the x position of the mouse is less than the center of your sketch
+* using mouseX draw a square in the middle of the screen if the x position of the mouse is greater than the center on your sketch
+
+#### Save
+
+save this sketch as lastname_firstname_inclass4
+
 ### else if
 
 Else if is the final piece of conditional logic.  This allows us to expand our program logic to many possible code blocks to execute.
@@ -187,11 +207,51 @@ if(10 > 5){
 //some other code
 }
 ```
-## 
 
-### combining boolean expressions
+## Circle Square Line in class (~10 mins)
 
+let's modify the above code to draw a line a square or a circle based on the X position of the mouse.  To do this we can use else if
 
+* Create a new Processing sketch
+* Create a canvas that is 600 by 300 pixels
+* draw a circle in the center of the canvas if the X position of the mouse is greater than 200 pixels
+* draw a square in the center of the canvas if the X position of the mouse is greater than 400 pixels
+* otherwise draw a line in the center of the canvas
+
+#### Save this 
+
+save this sketch as lastname_firstname_inclass5
+
+### logical operators
+
+Logical operators are used to combine conditional logic statements.  These operators are:
+
+* && (and)
+  * will be true if both conditional logic statements are true
+* || (or)
+  * will be true if either conditional logic statement is true 
+* ! (not)
+  * negates a conditional logic statement
+ 
+ Here is an example of these operators:
+
+ ```
+if(mouseX > 200 && mouseX < 300){
+ fill(255);
+}
+
+if(mouseX <= 200 || mouseX >= 300){
+ fill(00
+}
+
+```
+
+## Simple Rollover in class (~10)
+
+Let's make a simple rollover feature for a square.  A rollover detects when the mouse is over an object.  
+
+* change the fill color of the square when the mouse is over the square
+* you will need to check the mouse position for the left side, right side, top, and bottom of the square
 
 ## Loops
 
