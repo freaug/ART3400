@@ -1,3 +1,5 @@
+## Reviews Last Weeks Materials (~25 mins)
+
 ## Variables
 
 Variables allow us to store a data type, like the position of a circle, and allow us to do something to that data.  Let's take a look at variables with the goal of moving a circle across the screen. 
@@ -95,6 +97,21 @@ We are now using the variable as an incrementation operator and should see our c
 
 Save this assignment as lastname_firstname_inclass2
 
+### Arithmetic operators 
+
+In the previous example of moving a circle across the screen, we are using the + operator.  If you remember back to any math class you'll know that what we are doing is addition. 
+
+Each time through the draw function circleX gets 1 added to it increasing the value when then assign this new value back to circleX with the = operator. In this way, we can constantly update the X position of our circle and move it across the scene.
+
+Here are some other arithmetic operators that we will be using in class:
+
+```
++ // addition
+- // subtraction
+* // multiplication
+/ // division 
+```
+
 ### System Variables
 
 Processing also has system/built-in variables we can use.  Below are a few examples:
@@ -170,9 +187,9 @@ if(10 > 5){
 //some other code
 }
 ```
+## 
 
-## 4 Square Assignment (~20 mins)
-
+### combining boolean expressions
 
 
 
@@ -207,6 +224,17 @@ breaking down what is happening above:
 In this example, the for loop is executed 40 times. In the init statement, the value i is created and set to zero. i is less than 40, so the test evaluates as true. At the end of each loop, i is incremented by one. On the 41st execution, the test is evaluated as false, because i is then equal to 40, so i < 40 is no longer true. Thus, the loop exits.
 
 ## Functions 
+
+So far we have been using predefined functions from Processing but wouldn't it be fun to make our own functions? The answer is a resounding yes. 
+
+
+## Homework
+
+## 4 Square Assignment
+
+Using mouseX and mouseY create a sketch 
+
+
 
 
 
