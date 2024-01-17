@@ -14,18 +14,18 @@ float xPos, yPos, stepSizeX, stepSizeY;
 
 
 void setup() {
-  size(400, 200);
+  size(800, 400);
   // List all the available serial ports:
   //printArray(Serial.list());
   // Open the port you are using at the rate you want:
   myPort = new Serial(this, Serial.list()[7], 9600);
   xPos = random(width);
   yPos = random(height);
-  
+
   stepSizeX = 2;
   stepSizeY = 1;
   r =20;
-  colorMode(HSB, 255);
+  colorMode(RGB, 255);
 }
 
 void draw() {
@@ -41,9 +41,12 @@ void draw() {
     if (inBuffer != null) {
       scannedData = inBuffer;
       //logic to do things
-      if (inBuffer.equals("HELLOWORLD")) {
+      if (inBuffer.equals("BEEP")) {
         //pick a new random color
-        c = color(random(255), 255, 255);
+        c = color(random(255), 0, 100);
+      }
+      if (inBuffer.equals("BOOP")) {
+        c = color(0, random(255), 100);
       }
       println(inBuffer);
     }
