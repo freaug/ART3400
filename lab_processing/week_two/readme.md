@@ -266,7 +266,7 @@ save this as lastname_firstname_inclass6
 
 ## Bouncing ball In Class (~10 min)
 
-We have learned enough to bounce a ball from left to right! Lets take some time to write this out
+We have learned enough to bounce a ball from left to right! Let's take some time to write this out
 
 * you will need two conditional logic statements to achieve this
 * you will need two variables to bounce the ball
@@ -275,5 +275,20 @@ We have learned enough to bounce a ball from left to right! Lets take some time 
 ### working through bouncing ball together (~10 mins)
 
 Were you able to bounce the ball?
+
+## Only Move if the mouse is pressed (~15 mins)
+
+Let's write some code that will allow us to toggle if the circle is moving based on whether the mouse has been pressed.
+
+### boolean variable
+
+We must use a boolean variable to control whether the ball should bounce. You can think of it as a light switch for example. If the switch is on then we have light (true) if the switch is off we don't have light (off)
+
+* you will need to use the mousePressed() function
+* you will need some logic to check if the boolean variable is true
+
+#### Save
+
+save this as lastname_firstname_inclass7
 
 ## Homework
