@@ -295,7 +295,7 @@ save this as lastname_firstname_inclass7
 
 ### Prompt:
 
-For this week's homework, I would like to take one of the in-class examples and expand on it. The examples provide a framework for more compelling interactions than what we had time to cover in class.
+For this week's homework, I would like to take one of the [in-class examples](https://github.com/freaug/ART3400/tree/main/lab_processing/week_two/in%20class%20examples) and expand on it. The examples provide a framework for more compelling interactions than what we had time to cover in class.
 
 You must have conditional logic (if, else, else if) to control how your program is running, variables, and some interactivity with the mouse
 
