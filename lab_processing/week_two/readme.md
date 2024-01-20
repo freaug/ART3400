@@ -292,3 +292,73 @@ We must use a boolean variable to control whether the ball should bounce. You ca
 save this as lastname_firstname_inclass7
 
 ## Homework
+
+### Prompt:
+
+For this week's homework, I would like to take one of the in-class examples and expand on it. The examples provide a framework for more compelling interactions than what we had time to cover in class.
+
+You must have conditional logic (if, else, else if) to control how your program is running, variables, and some interactivity with the mouse
+
+Additionally please answer the following questions in a few sentences.
+
+* Describe what you are trying to create
+* How did you develop your project?
+* Did your project turn out like you expected/ Did you have any issues?
+
+I've included an example project to show you what I'm expecting. I took the wrap-around in-class example and added some more control parameters to it as well as a second shape.
+
+### Time:
+
+You should plan to budget a few hours working on this homework in your weekly schedule. Breaking it into smaller chunks can be helpful and prevent frustration and burnout. Make sure to save often.
+
+### Learning Outcomes:
+
+This assignment is meant to help reinforce what we learned in class about variables, conditional logic, and using the mouse for interactivity in a Processing sketch.
+
+### Getting Started:
+
+I recommend looking at the example project I attached to get an idea of the direction you could take your project. I also recommend looking at these examples from the processing website for additional inspiration:
+
+https://processing.org/examples/mousepress.html
+https://processing.org/examples/mouse1d.html
+https://processing.org/examples/mouse2d.html
+https://processing.org/examples/mousefunctions.html
+https://processing.org/examples/continuouslines.html
+https://processing.org/examples/pattern.html
+https://processing.org/examples/bounce.html
+https://processing.org/examples/linear.html
+https://processing.org/examples/movingoncurves.html
+
+These examples add some features we have not covered in class but provide interesting results. Check out the Processing Reference pages in the examples for understanding what unfamiliar commands/functions are doing.
+
+I find it helpful to write out a few ideas that I would like to try as a good starting point.
+
+### Grading:
+
+Homework will be graded based on the following rubric.
+
+20 points - Files submitted correctly
+* 5 points - A Processing sketch and folder named lastname_firstname_homework2
+* 5 points - A text file with the below questions answered named lastname_firstname_homework2 (just a few sentences for each prompt will be fine) 
+* Describe What you were trying to create
+* How did you develop your project?
+* Did your project turn out like you expected/ Did you have any issues?
+* 5 points - A screen recording of your project names lastname_firstname_homework2
+* 5 points - Your Project folder named lastname_firstname_homework was zipped and uploaded
+15 points - Code is structured correctly
+* 5 points - setup function block
+* 5 points - draw function block
+* 5 points - comments in your code describing what is going on
+5 points - Artistic Merit
+* did you expand on the given code and make something interesting? Did you push yourself?
+20 points - Did you use conditional logic to control how your sketch runs. (if, else, else if)
+20 points - Are you using variables to help control your sketch?
+20 points - Pressing the mouse causes a noticeable change in your program.
+
+Help:
+
+The abyss of freedom can be daunting.&nbsp; My best advice is to just try something.&nbsp; Take the examples, change a parameter, and see what that does.
+
+If you've played around with the in-class example code, have reviewed the lab notes, watched the video on conditionals, and are still feeling lost then I am happy to schedule a short 10-minute video call with you to answer questions during the 2:30 - 5:10 Monday time slot.&nbsp;&nbsp;
+
+If you're having trouble with recording your video YouTube has several videos on how to do this.
