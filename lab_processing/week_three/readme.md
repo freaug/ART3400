@@ -1,6 +1,6 @@
-## Review (~25)
+## Review (~60)
 
-## In Class Assignment (~15) - Graded
+Let's review everything we have learned in class so far.
 
 ## Loops
 
