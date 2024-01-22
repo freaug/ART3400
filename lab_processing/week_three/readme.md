@@ -1,8 +1,12 @@
+## Review (~60)
+
+Let's review everything we have learned in class so far.
+
 ## Loops
 
 In programming, there are several types of loops you will encounter.  For this class, we will only be focusing on the for loop however you may come across a while loop if you are reading through code that is not yours.  The while loop is also covered in detail in the Learning Processing video we have been using as a reference for the class. 
 
-The for loop controls a sequence of repetitions. The structure of the for loop is comprised of three parts, the initial state, the text condition, and the update. The syntax is shown below.
+The for loop controls a sequence of repetitions. The structure of the for loop is comprised of three parts, the initial state, the test condition, and the update. The syntax is shown below.
 
 ```
 
@@ -28,7 +32,7 @@ breaking down what is happening above:
 
 In this example, the for loop is executed 40 times. In the init statement, the value i is created and set to zero. i is less than 40, so the test evaluates as true. At the end of each loop, i is incremented by one. On the 41st execution, the test is evaluated as false, because i is then equal to 40, so i < 40 is no longer true. Thus, the loop exits.
 
-## Functions 
+## Arrays
 
-So far we have been using predefined functions from Processing but wouldn't it be fun to make our own functions? The answer is a resounding yes. 
+
 

@@ -286,9 +286,7 @@
     Wind beneath majestic wings,
     Nature's aerial dance.
 
-73. Whispering
-
- willows,
+73. Whispering willows,
     Branches sway in gentle breeze,
     Nature's lullaby.
 
