@@ -2,6 +2,22 @@
 
 Let's review everything we have learned in class so far.
 
+## Expanding Interactivity 
+
+[keyPressed()](https://processing.org/reference/keyPressed_.html)
+
+[mousePressed](https://processing.org/reference/mousePressed.html)
+
+[keyPressed](https://processing.org/reference/keyPressed.html)
+
+[key](https://processing.org/reference/key.html)
+
+[keyCode](https://processing.org/reference/keyCode.html)
+
+[Letter Example](https://processing.org/examples/keyboard.html)
+
+[Ascii Table](https://www.asciitable.com/)
+
 ## Custom Functions (~30 minutes)
 
 Defining the function requires 4 parts
