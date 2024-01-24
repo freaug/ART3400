@@ -1,8 +1,137 @@
-## Review (~30)
+## Review (~30 minutes)
 
 Let's review everything we have learned in class so far.
 
-## In Class Assignment 2 parts (~60 minutes)
+## Custom Functions (~30 minutes)
+
+Defining the function requires 4 parts
+* return type
+* function name
+* open and close parentheses containing the function parameters.
+* block of code that is executed when the function is called
+
+Let's take about 10 minutes to make a simple scene in processing with a sun and a flower!
+
+```
+void setup() {
+  size(640, 320);
+}
+
+void draw() {
+  background(0);
+
+  //sun
+  noStroke();
+  fill(255, 255, 0);
+  circle( 50, 50, 50);
+
+  //stem
+  strokeWeight(5);
+  stroke(0, 255, 100);
+  line(320, 160, 320, 260);
+  
+  //flower outer
+  noStroke();
+  fill(150, 0, 150);
+  circle(320, 160, 50);
+  
+  //flower center
+  noStroke();
+  fill(255, 0, 100);
+  circle( 320, 160, 25);
+}
+
+```
+
+### Modularity
+
+Breaking the code into specific sections that we can easily modify and reuse. 
+
+Taking this idea lets separate our sketch into two custom functions.  One for the flower and one for the Sun
+
+```
+void setup() {
+  size(640, 320);
+}
+
+void draw() {
+  background(0);
+  
+  sun();
+  flower();
+}
+
+void sun(){
+  //sun
+  noStroke();
+  fill(255, 255, 0);
+  circle( 50, 50, 50);
+}
+
+void flower(){
+  //stem
+  strokeWeight(5);
+  stroke(0, 255, 100);
+  line(320, 160, 320, 260);
+  
+  //flower outer
+  noStroke();
+  fill(150, 0, 150);
+  circle(320, 160, 50);
+  
+  //flower center
+  noStroke();
+  fill(255, 0, 100);
+  circle( 320, 160, 25);
+}
+
+```
+
+
+### Reusability 
+
+Let's add some parameters to our functions to make it easy to reuse them!
+
+```
+void setup() {
+  size(640, 320);
+}
+
+void draw() {
+  background(0);
+  
+  sun();
+  flower(320, 160);
+  flower(420, 180);
+  flower(220, 200);
+}
+
+void sun(){
+  //sun
+  noStroke();
+  fill(255, 255, 0);
+  circle( 50, 50, 50);
+}
+
+void flower(float x, float y){
+  //stem
+  strokeWeight(5);
+  stroke(0, 255, 100);
+  line(x, y, x, y+100);
+  
+  //flower outer
+  noStroke();
+  fill(150, 0, 150);
+  circle(x, y, 50);
+  
+  //flower center
+  noStroke();
+  fill(255, 0, 100);
+  circle( x, y, 25);
+}
+```
+
+## In Class Assignment 2 parts (Remainder of lab)
 
 ### Task 1: (25 points)
 
@@ -95,41 +224,3 @@ Your assignment will be evaluated based on the following criteria:
 - (10 points)  **Drawing Logic:** Effective use of conditional statements to determine square positions and colors. 
 - (10 points)  **Color and Shape Logic:** Correct implementation of color and shape conditions based on mouse position.
 - (2.5 points) **Code Structure:** Well-organized code with clear comments on the logic.
-
-
-## custom functions
-
-## Loops
-
-In programming, there are several types of loops you will encounter.  For this class, we will only be focusing on the for loop however you may come across a while loop if you are reading through code that is not yours.  The while loop is also covered in detail in the Learning Processing video we have been using as a reference for the class. 
-
-The for loop controls a sequence of repetitions. The structure of the for loop is comprised of three parts, the initial state, the test condition, and the update. The syntax is shown below.
-
-```
-
-for(initial state; test condition; update){
- // do something
-}
-
-//or written so that your code will compile.
-
-for(int i = 0; i < 40; i = i + 1){
- print(i);
-}
-```
-
-breaking down what is happening above:
-
-1. The init statement is run.
-2. The test is evaluated to be true or false.
-3. If the test is true, jump to step 4. If the test is false, jump to step 6.
-4. Run the statements within the block.
-5. Run the update statement and jump to step 2.
-6. Exit the loop.
-
-In this example, the for loop is executed 40 times. In the init statement, the value i is created and set to zero. i is less than 40, so the test evaluates as true. At the end of each loop, i is incremented by one. On the 41st execution, the test is evaluated as false, because i is then equal to 40, so i < 40 is no longer true. Thus, the loop exits.
-
-## Arrays
-
-
-
