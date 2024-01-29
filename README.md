@@ -16,8 +16,8 @@ Much of the course content is derived from the following books/websites. You are
 
 * [Week 1 - Processing](https://github.com/freaug/ART3400/tree/main/lab_processing/week_one)
 * [Week 2 - Processing](https://github.com/freaug/ART3400/tree/main/lab_processing/week_two)
-* Week 3 - Processing
-* Week 4 - Arduino
+* [Week 3 - Processing](https://github.com/freaug/ART3400/tree/main/lab_processing/week_three)
+* [Week 4 - Processing](https://github.com/freaug/ART3400/tree/main/lab_processing/week_four)
 * Week 4 - Arduino
 * Week 4 - Arduino
 
