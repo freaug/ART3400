@@ -8,6 +8,21 @@ Review custom functions and any questions from the homework.
 
 The while loop is similar enough to the if statement that it is a good point of comparison.  The while loop will perform a series of operations while a boolean expression evaluates as true.
 
+```
+void setup(){
+size(400, 400);
+int i = 0;
+while (i < 320) {
+  line(120, i, 320, i);
+  i = i + 20;
+}
+}
+void draw(){
+
+}
+
+```
+
 ### The 'For' Loop
 
 In programming, there are two types of loops you will encounter.  For this class, we will only be focusing on the for loop however you may come across a while loop if you are reading through code that is not yours.  The while loop is also covered in detail in the Learning Processing video we have been using as a reference for the class. 
@@ -60,7 +75,25 @@ With Just three lines of code, we are now able to draw an entire row of circles!
 
 ### Nested For Loop
 
+Nested for loops allows us to iterate in two directions. X and Y allowing for two dimensional arrays. 
 
+```
+// Nested for() loops can be used to
+// generate two-dimensional patterns
+void setup(){
+size(400, 400);
+
+for (int i = 120; i < 320; i = i+20) {
+  for (int j = 0; j < 320; j = j+20) {
+    circle(i, j, 5);
+  }
+}
+}
+
+void draw(){
+
+}
+```
 
 ## Arrays
 
