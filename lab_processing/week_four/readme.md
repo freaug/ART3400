@@ -1,8 +1,14 @@
 ## Review (~30 mins)
 
-## Arrays
+Review custom functions and any questions from the homework.
 
-## The 'For' Loop
+## Loops
+
+### The 'While Loop
+
+The while loop is similar enough to the if statement that it is a good point of comparison.  The while loop will perform a series of operations while a boolean expression evaluates as true.
+
+### The 'For' Loop
 
 In programming, there are two types of loops you will encounter.  For this class, we will only be focusing on the for loop however you may come across a while loop if you are reading through code that is not yours.  The while loop is also covered in detail in the Learning Processing video we have been using as a reference for the class. 
 
@@ -54,6 +60,11 @@ With Just three lines of code, we are now able to draw an entire row of circles!
 
 ### Nested For Loop
 
+
+
+## Arrays
+
+https://processing.org/reference/Array.html
 
 
 
