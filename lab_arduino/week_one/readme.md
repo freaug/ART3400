@@ -30,6 +30,8 @@ In this first week, we will only look at a few components from your kits listed 
 * Resistor
 * LED
 
+[Adafruit Guide to Blinking LED](https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/blinking-the-led)
+
 [LED Reference](https://learn.adafruit.com/all-about-leds?view=all) - A helpful reference for more information on LEDs
 
 [In Class Activity 2](https://docs.arduino.cc/built-in-examples/basics/DigitalReadSerial) - Button Press, click on the link to see the circuit diagram and code for this example.
