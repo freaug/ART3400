@@ -42,6 +42,8 @@ In this first week, we will only look at a few components from your kits listed 
 * Resistor
 * Button
 
+[Adaffruit Guide to Button Press](https://learn.adafruit.com/adafruit-arduino-lesson-6-digital-inputs)
+
 ### Individual:
 
 Taking what we have learned see if you can turn the LED on when you press and hold down the button. (10 - 15 minutes)
