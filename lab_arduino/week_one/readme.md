@@ -81,6 +81,8 @@ If you get stuck review the three in-class exercises.
 * RGB LED
 * Button x 3
 
+[Adafruit Guide to LED Fader](https://learn.adafruit.com/adafruit-arduino-lesson-7-make-an-rgb-led-fader/overview)
+
 #### References:
 [1] https://en.wikipedia.org/wiki/Microcontroller
 
