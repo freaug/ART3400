@@ -66,7 +66,7 @@ Taking what we have learned see if you can turn the LED on when you press and ho
 * LED
 * Button
 
-## Lab Assignment / Homework
+## Lab Assignment
 
 Now that we can know the state of a button it's time to do something slightly more interesting than just turning on one LED.  For this assignment, I would like you to use the RGB LED and three buttons.  Have one of the buttons be able to turn on the red channel, another to turn on the green channel, and the final button to turn on the blue channel.  
 
