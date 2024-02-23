@@ -34,7 +34,16 @@ In this first week, we will only look at a few components from your kits listed 
 
 [LED Reference](https://learn.adafruit.com/all-about-leds?view=all) - A helpful reference for more information on LEDs
 
-[In Class Activity 2](https://docs.arduino.cc/built-in-examples/basics/DigitalReadSerial) - Button Press, click on the link to see the circuit diagram and code for this example.
+[In Class Activity 2](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Fading) - Pulse Width Modulation, fading the intensity of an LED
+
+### Materials Needed:
+* Arduino
+* Breadboard
+* Jumper Wires
+* Resistor
+* RGB LED
+
+[In Class Activity 3](https://docs.arduino.cc/built-in-examples/basics/DigitalReadSerial) - Button Press, click on the link to see the circuit diagram and code for this example.
 
 #### Materials Needed:
 * Breadboard
@@ -57,7 +66,7 @@ Taking what we have learned see if you can turn the LED on when you press and ho
 
 ### Together:
 
-[In Class Activity 3](https://www.arduino.cc/en/Tutorial/BuiltInExamples/StateChangeDetection) - State Detection, click on the link to see the circuit diagram and code for this example.
+[In Class Activity 4](https://www.arduino.cc/en/Tutorial/BuiltInExamples/StateChangeDetection) - State Detection, click on the link to see the circuit diagram and code for this example.
 
 #### Materials Needed:
 * Breadboard
